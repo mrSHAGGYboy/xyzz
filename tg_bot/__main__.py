@@ -143,7 +143,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="MY FATHER",
                                                                        url="t.me/mrSHAGGYboy")],
-                                                                                   [InlineKeyboardButton(text="ADD *LILY* TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ADD LILY TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="SUPPORT GROUP",
                                                                        url="https://t.me/lily_supports")
