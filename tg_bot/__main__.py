@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/74aa05684ab31ad6362f3.jpg"
+TECHNO_IMG = "https://telegra.ph/file/3242aa1e351a4a82a95de.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -143,10 +143,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="MY FATHER",
                                                                        url="t.me/mrSHAGGYboy")],
-                                                                                   [InlineKeyboardButton(text="ADD LILY TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="SUPPORT GROUP",
-                                                                       url="https://t.me/lily_supports")
+                                                                       url="https://t.me/lily_supports") 
+                                                                                   InlineKeyboardButton(text="MY SISTER",
+                                                                       url="@nezuko71bot")
                                                                                  ]]))
 
     else:
