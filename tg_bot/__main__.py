@@ -27,9 +27,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-I am  **Powerfull**  group management bot.
+I ᴀᴍ  Pᴏᴡᴇʀғᴜʟʟ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
 ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
-Maintained by @mrSHAGGYboy
+Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @ᴍʀSHAGGYʙᴏʏ
 """
 
 HELP_STRINGS = """
@@ -139,16 +139,14 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="HELP",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ᴴᴱᴸᴾ",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="MY FATHER",
+                                                                                   InlineKeyboardButton(text="ᴹʸ ᶠᴬᵀᴴᴱᴿ",
                                                                        url="t.me/mrSHAGGYboy")],
-                                                                                   [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ᴬᴰᴰ ᴸᴵᴸʸ ᵀᴼ ʸᴼᵁᴿ ᴳᴿᴼᵁᴾ",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="SUPPORT GROUP",
+                                                                                   InlineKeyboardButton(text="ˢᵁᴾᴾᴼᴿᵀ ᴳᴿᴼᵁᴾ",
                                                                        url="https://t.me/lily_supports") 
-                                                                                   InlineKeyboardButton(text="MY SISTER",
-                                                                       url="@nezuko71bot")
                                                                                  ]]))
 
     else:
