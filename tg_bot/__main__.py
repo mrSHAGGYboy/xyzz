@@ -27,9 +27,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-*I ᴀᴍ  Pᴏᴡᴇʀғᴜʟʟ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
-*ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
-*Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @ᴍʀSHAGGYʙᴏʏ
+I ᴀᴍ  Pᴏᴡᴇʀғᴜʟʟ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
+Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @ᴍʀSHAGGYʙᴏʏ
 """
 
 HELP_STRINGS = """
