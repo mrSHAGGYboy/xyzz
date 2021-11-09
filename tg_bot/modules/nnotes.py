@@ -15,11 +15,11 @@ from babel.dates import format_datetime
 from pymongo import ReplaceOne
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
-from DaisyX import bot
-from DaisyX.decorator import register
-from DaisyX.services.mongo import db
-from DaisyX.services.redis import redis
-from DaisyX.services.telethon import tbot
+from tg_bot import bot
+from tg_bot.decorator import register
+from tg_bot.services.mongo import db
+from tg_bot.services.redis import redis
+from tg_bot.services.telethon import tbot
 
 from .utils.connections import chat_connection, set_connected_command
 from .utils.disable import disableable_dec
